@@ -1,67 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const fromIntro = urlParams.get("from");
 
-<script>
-    const urlParams = new URLSearchParams(window.location.search);
-    const fromIntro = urlParams.get("from");
-
-    if (fromIntro !== "1") {
-        window.location.href = "intro.html";
-    }
-</script>
-
+        if (fromIntro !== "1") {
+            window.location.href = "intro.html";
+        }
+    </script>
 
     <meta charset="UTF-8">
     <title>Aashik Ali | CV </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="CV / Resume of Aashik Ali – Assistant Manager, Logistics & IT, with 3+ years of experience.">
+    <meta name="description" content="CV / Resume of Aashik Ali – Assistant Manager, Logistics, IT & Technical Professional.">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
-
-	
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
 <header class="top-header">
     <div class="container header-content">
 
-        <!-- ⭐ Hamburger (Mobile Only) -->
+        <!-- Hamburger (Mobile Only) -->
         <div class="hamburger" id="hamburger">
             <span></span>
             <span></span>
             <span></span>
         </div>
 
-        <!-- ⭐ Name Center -->
+        <!-- Name Center -->
         <div class="title-center">
             <h1 class="name">Aashik Ali</h1>
             <p class="headline">"Multi-skilled" and "Actively Upskilling"</p>
         </div>
-<style>
 
-</style>
-        <!-- ⭐ Desktop Menu -->
+        <!-- Desktop Menu -->
         <nav class="menu" id="menu">
             <a href="index.html" onclick="showHome()">Home</a>
-
             <a href="Doc.html" target="_blank">My Experience Work</a>
-			<a href="#year">Certificates</a>
+            <a href="#year">Certificates</a>
             <a href="#about">About</a>
             <a href="#year">Contact</a>
-        
+        </nav>
 
-    </div>
-</nav>
-
-        <!-- ⭐ Theme Toggle (Desktop Only) -->
+        <!-- Theme Toggle -->
         <button id="themeToggle" aria-label="Toggle dark mode" class="theme-btn">
             <span class="theme-icon">🌙</span>
         </button>
@@ -74,75 +62,65 @@
     <section class="left-column">
         <section class="card contact-card">
             <h2>Contact</h2>
-			 <!-- Round Photo on Right -->
-        <a href="IMG_20211114_133154_1.png" target="_blank">
-            <img src="images/IMG_20211114_133154_1.png" alt="Aashik Ali" class="profile-pic">
-        </a>
+            <a href="IMG_20211114_133154_1.png" target="_blank">
+                <img src="images/IMG_20211114_133154_1.png" alt="Aashik Ali" class="profile-pic">
+            </a>
             <ul class="contact-list">
-                <li><span class="label">Phone:</span> <a href="tel:+918948297146">+91 8948297146 ,</a><a href="tel:+966 541421337">+966 541421337</a></li>
+                <li><span class="label">Phone:</span> <a href="tel:+918948297146">+91 8948297146</a>, <a href="tel:+966541421337">+966 541421337</a></li>
                 <li><span class="label">Email:</span> <a href="mailto:aashikali240@gmail.com">aashikali240@gmail.com</a></li>
-               
                 <li><span class="label">Location:</span> Asir, Saudi Arabia</li>
             </ul>
         </section>
-<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
-		
-         <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="light" data-type="HORIZONTAL" data-vanity="aashik-ali-300387218" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://in.linkedin.com/in/aashik-ali-300387218?trk=profile-badge"></a></div>
+
+        <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+        <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="light" data-type="HORIZONTAL" data-vanity="aashik-ali-300387218" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://in.linkedin.com/in/aashik-ali-300387218?trk=profile-badge"></a></div>
                
         <section class="card">
-		    
             <h2>Professional summary</h2>
-            <p style="
-        
-        line-height:1.7; 
-        text-align:justify; 
-        
-        margin:0;">
-                 "Multi-skilled professional with hands-on experience in 
-        <b>logistics coordination, warehouse operations, inventory handling, and supply chain support</b>. 
-        Strong background in <b>IT</b> and <b>E&amp;I</b> troubleshooting, ensuring smooth technical operations in 
-        fast-paced environments. Skilled in data-driven decision-making using 
-        <b>Excel</b> (advanced formulas, dashboards) and 
-        <b>Power BI</b> (data modeling, DAX, interactive reporting). Qualified with 
-        <b>ITI</b> in Computer Science and a Diploma in 
-        <b>Instrumentation</b>, with additional 
-        <b>DevOps</b> upskilling (Linux/Ubuntu, AWS, Jenkins CI/CD, Docker, Kubernetes, Git/GitHub/GitLab) 
-        to support secure, scalable, and efficient systems."
+            <p style="line-height:1.7; text-align:justify; margin:0;">
+                "Detail-oriented logistics, warehouse, and technical operations professional with 2+ years of experience in material handling, inventory control, stock reconciliation, dispatch coordination, and documentation. Strong background in <b>IT Support, Electrical Maintenance &amp; Troubleshooting</b>, system troubleshooting, and retail operations in Saudi Arabia. Skilled in BCIL system, MS Excel, MS Word, vehicle tracking, and warehouse reporting. Known for accuracy, technical adaptability, and smooth coordination between operations, transporters, and management teams."
             </p>
         </section>
 
-        
-            
-      <section class="card">
-    <h2>Computer skills</h2>
-    <div class="tags" id="skillsContainer">
-	</div>
-
-                
-            
+        <section class="card">
+            <h2>Computer skills</h2>
+            <div class="tags" id="skillsContainer"></div>
         </section>
-
 
         <section class="card">
             <h2>Technical skills</h2>
-           <div class="tags" id="TechskillsContainer">
-	</div>
+            <p style="font-weight:600; color:#00d4ff; margin-bottom:8px;">IT Support &amp; Electrical Maintenance</p>
+            <ul class="bullet-list" style="margin-bottom:15px;">
+                <li>Domestic &amp; Industrial Electrical Repairs</li>
+                <li>Washing Machine, Fan, Mixer &amp; Appliance Repair</li>
+                <li>Instrumentation Circuit Troubleshooting</li>
+                <li>Analog &amp; Digital Electronics</li>
+                <li>Cable Termination &amp; Panel Wiring</li>
+                <li>Preventive &amp; Corrective Maintenance</li>
+                <li>Control Panel Installation</li>
+                <li>Multimeter &amp; Testing Tools Usage</li>
+                <li>Calibration Basics</li>
+                <li>Electrical Safety Procedures</li>
+                <li>System Installation &amp; Configuration</li>
+            </ul>
+            <div class="tags" id="TechskillsContainer"></div>
         </section>
 
         <section class="card">
             <h2>Strengths</h2>
             <ul class="bullet-list">
-                <li>Friendly and helpful nature</li>
-                <li>Collaborative and team-focused</li>
-                <li>Hardworking and sincere</li>
-                <li>Self-confident and adaptable</li>
+                <li>Technical Support &amp; System Troubleshooting</li>
+                <li>Accurate Documentation &amp; Record Keeping</li>
+                <li>Fast Learner &amp; Quickly Adaptable</li>
+                <li>Team Collaboration &amp; Operations Support</li>
+                <li>Hardworking, Sincere &amp; Reliable</li>
             </ul>
         </section>
 
         <section class="card">
             <h2>Languages</h2>
             <ul class="bullet-list">
-                <li>Hindi – Fluent</li>
+                <li>Hindi – Native / Fluent</li>
                 <li>English – Proficient</li>
                 <li>Arabic – Proficient</li>
             </ul>
@@ -154,11 +132,9 @@
                 <li><span class="label">Father's Name:</span> Mr. Shaphimuhammad</li>
                 <li><span class="label">Date of Birth:</span> 25 August 1999</li>
                 <li><span class="label">Nationality:</span> Indian</li>
-                <li><span class="label">Hobbies:</span> Technical work,Programming & Teach</li>
+                <li><span class="label">Hobbies:</span> Technical work, Programming &amp; Teaching</li>
             </ul>
         </section>
-
-        
     </section>
 
     <!-- Right column -->
@@ -168,14 +144,14 @@
             <div class="job-header">
                 <div>
                     <h3>Assistant Manager – Shopping Mall</h3>
-                    <p class="job-company">Asir,Abha,Saudi Arabia</p>
+                    <p class="job-company">Asir, Abha, Saudi Arabia</p>
                 </div>
                 <p class="job-dates">2023 – April 2026</p>
             </div>
             <ul class="bullet-list">
-                <li>Manage cash transactions and maintain accurate financial records.</li>
-                <li>Provide customer service to ensure smooth daily operations.</li>
-                <li>Use computer systems for billing, inventory tracking, and reporting.</li>
+                <li>Managed daily operations, cash transactions, billing, and inventory tracking using computer systems.</li>
+                <li>Maintained accurate stock records and ensured timely stock replenishment.</li>
+                <li>Improved daily workflow by maintaining organized stock, customer service, and documentation.</li>
             </ul>
         </section>
 
@@ -185,15 +161,15 @@
             <article class="experience-item">
                 <div class="job-header">
                     <div>
-                        <h3>Logistic Department – FENESTA Pvt. Ltd.</h3>
+                        <h3>Logistics Department – FENESTA Pvt. Ltd.</h3>
                         <p class="job-company">Bhiwadi, Rajasthan, India – 301019</p>
                     </div>
-                    <p class="job-dates">2021-2023 </p>
+                    <p class="job-dates">2021 – 2023</p>
                 </div>
                 <ul class="bullet-list">
-                    <li>Managed data and information using BCIL system.</li>
-                    <li>Prepared daily and cumulative production reports.</li>
-                    <li>Handled receipts, ledgers, and stock statements.</li>
+                    <li>Managed logistics documentation using BCIL system for dispatch and receipts.</li>
+                    <li>Prepared daily and monthly production and stock reports.</li>
+                    <li>Supported warehouse team in material handling, stock counting, and reconciliation.</li>
                     <li>Tracked vehicles and coordinated freight logistics.</li>
                 </ul>
             </article>
@@ -204,35 +180,31 @@
                         <h3>IT Department – AAKAR Pvt. Ltd.</h3>
                         <p class="job-company">Bhiwadi, Rajasthan, India – 301019</p>
                     </div>
-                    <p class="job-dates"> 2020-2021 </p>
+                    <p class="job-dates">2020 – 2021</p>
                 </div>
                 <ul class="bullet-list">
-                    <li>Performed system maintenance and troubleshooting.</li>
-                    <li>Resolved network connectivity issues.</li>
-                    <li>Worked with analog electronics and instrumentation circuits.</li>
+                    <li>Maintained computer systems, networks, and software used in daily operations.</li>
+                    <li>Supported warehouse &amp; office teams with system troubleshooting and network issues.</li>
+                    <li>Worked with analog electronics, instrumentation circuits, and panel wiring.</li>
                     <li>Installed and configured Windows OS and software applications.</li>
                 </ul>
             </article>
         </section>
- <section class="card">
+
+        <section class="card">
             <h2>Technical qualifications</h2>
 
             <article class="edu-item">
                 <div class="edu-header">
                     <div>
                         <h3>
-  <a href="images/iti Certificate.png" target="_blank">
-    <i class="fa-solid fa-file-circle-check cert-icon"></i>
-  </a>
-  ITI – Computer Operator & Programming Assistant
-</h3>
-
-
-  </a>
-
-                        <p class="edu-school">Government Industrial Training Institute, Naurangia, Kushinagar, Uttar Pradesh</p>
+                            <a href="images/image.png" target="_blank">
+                                <i class="fa-solid fa-file-circle-check cert-icon"></i>
+                            </a> Backhoe Loader Operator (CAT)
+                        </h3>
+                        <p class="edu-school">Gainwell CAT, Greater Noida, Uttar Pradesh</p>
                     </div>
-                    <p class="edu-dates">2017 – 2018 | 76.50% </p>
+                    <p class="edu-dates">2022</p>
                 </div>
             </article>
 
@@ -240,95 +212,104 @@
                 <div class="edu-header">
                     <div>
                         <h3>
-						<a href="images/IMG_20220411_003704.jpg" target="_blank">
-    <i class="fa-solid fa-file-circle-check cert-icon"></i>
-  </a>Diploma in Instrumentation</h3>
+                            <a href="images/iti Certificate.png" target="_blank">
+                                <i class="fa-solid fa-file-circle-check cert-icon"></i>
+                            </a> ITI – Computer Operator &amp; Programming Assistant
+                        </h3>
+                        <p class="edu-school">Government Industrial Training Institute, Naurangia, Kushinagar, Uttar Pradesh</p>
+                    </div>
+                    <p class="edu-dates">2017 – 2018 | 76.50%</p>
+                </div>
+            </article>
+
+            <article class="edu-item">
+                <div class="edu-header">
+                    <div>
+                        <h3>
+                            <a href="images/IMG_20220411_003704.jpg" target="_blank">
+                                <i class="fa-solid fa-file-circle-check cert-icon"></i>
+                            </a> Diploma in Instrumentation
+                        </h3>
                         <p class="edu-school">Rastriya Technical Institute, Jamshedpur, Jharkhand</p>
                     </div>
-                    <p class="edu-dates">2016 – 2017 | A Grade </p>
+                    <p class="edu-dates">2016 – 2017 | A Grade</p>
                 </div>
             </article>
 
             <article class="edu-item">
                 <div class="edu-header">
                     <div>
-                        <h3><a href="images/IMG_20220411_004410.jpg" target="_blank">
-    <i class="fa-solid fa-file-circle-check cert-icon"></i>
-  </a>CCC – Course on Computer Concepts</h3>
+                        <h3>
+                            <a href="images/IMG_20220411_004410.jpg" target="_blank">
+                                <i class="fa-solid fa-file-circle-check cert-icon"></i>
+                            </a> CCC – Course on Computer Concepts
+                        </h3>
                         <p class="edu-school">NIELIT, Gorakhpur</p>
                     </div>
-                    <p class="edu-dates">2017 </p>
+                    <p class="edu-dates">2017</p>
                 </div>
             </article>
 
             <article class="edu-item">
                 <div class="edu-header">
                     <div>
-                        <h3><a href="images/IMG_20191004_0001 (4).jpg" target="_blank">
-    <i class="fa-solid fa-file-circle-check cert-icon"></i>
-  </a>DCA – Diploma in Computer Application</h3>
+                        <h3>
+                            <a href="images/IMG_20191004_0001 (4).jpg" target="_blank">
+                                <i class="fa-solid fa-file-circle-check cert-icon"></i>
+                            </a> DCA – Diploma in Computer Application
+                        </h3>
                         <p class="edu-school">Academy of Computer, Patherdewa, Deoria, Uttar Pradesh</p>
                     </div>
-                    <p class="edu-dates">2016 </p>
-                </div>
-            </article>
-
-            <article class="edu-item">
-                <div class="edu-header">
-                    <div>
-                        <h3><a href="images/image.png" target="_blank">
-    <i class="fa-solid fa-file-circle-check cert-icon"></i>
-  </a>Backhoe Loader Operator (CAT)</h3>
-                        <p class="edu-school">Gainwell CAT, Greater Noida, Uttar Pradesh</p>
-                    </div>
-                    <p class="edu-dates">2022</p>
+                    <p class="edu-dates">2016</p>
                 </div>
             </article>
         </section>
-        
+
         <section class="card">
             <h2>Education</h2>        
 
             <article class="edu-item">
                 <div class="edu-header">
                     <div>
-                        <h3><a href="images/IMG_20221212_134419.jpg" target="_blank">
-    <i class="fa-solid fa-file-circle-check cert-icon"></i>
-  </a>B.A. in Political Science & Social Science</h3>
+                        <h3>
+                            <a href="images/IMG_20221212_134419.jpg" target="_blank">
+                                <i class="fa-solid fa-file-circle-check cert-icon"></i>
+                            </a> B.A. in Political Science &amp; Social Science
+                        </h3>
                         <p class="edu-school">Subharti University, Meerut, Uttar Pradesh, India</p>
                     </div>
-                    <p class="edu-dates">2018 – 2021 | 66.33% </p>
+                    <p class="edu-dates">2018 – 2021 | 66.33%</p>
                 </div>
             </article>
 
             <article class="edu-item">
                 <div class="edu-header">
                     <div>
-                        <h3><a href="images/IMG_20220411_003344.jpg" target="_blank"class="cert-link">
-    <i class="fa-solid fa-file-circle-check cert-icon"></i>
-</a>
-
-Intermediate (12th) – Physics & Mathematics</h3>
+                        <h3>
+                            <a href="images/IMG_20220411_003344.jpg" target="_blank" class="cert-link">
+                                <i class="fa-solid fa-file-circle-check cert-icon"></i>
+                            </a> Intermediate (12th) – Physics &amp; Mathematics
+                        </h3>
                         <p class="edu-school">A.N.D Intermediate College, Patherdewa, Uttar Pradesh, India</p>
                     </div>
-                    <p class="edu-dates">2015 – 2016 | 74.33% </p>
+                    <p class="edu-dates">2015 – 2016 | 74.33%</p>
                 </div>
             </article>
 
             <article class="edu-item">
                 <div class="edu-header">
                     <div>
-                        <h3><a href="images/IMG_20220411_003332.jpg" target="_blank"class="cert-link">
-    <i class="fa-solid fa-file-circle-check cert-icon"></i>
-  </a>High School (10th)</h3>
+                        <h3>
+                            <a href="images/IMG_20220411_003332.jpg" target="_blank" class="cert-link">
+                                <i class="fa-solid fa-file-circle-check cert-icon"></i>
+                            </a> High School (10th)
+                        </h3>
                         <p class="edu-school">Janata Higher Secondary School, Patherdewa, Uttar Pradesh, India</p>
                     </div>
-                    <p class="edu-dates">2013 – 2014 | 77.33% </p>
+                    <p class="edu-dates">2013 – 2014 | 77.33%</p>
                 </div>
             </article>
         </section>
-
-       
 
         <section class="card">
             <h2>Documents</h2>
@@ -362,74 +343,36 @@ Intermediate (12th) – Physics & Mathematics</h3>
                 <p class="signature">Signature: <span class="signature-line">AASHIK ALI</span></p>
             </div>
         </section>
-<center><h2 style="
-  color:#00d4ff;
-  margin-bottom:10px;
-  font-size:22px;
-  font-weight:600;
-">
-  Contact With Me
-</h2></center>
 
-<div style="
-  max-width:800px;
-  background:#0f172a;
-  padding:0px;
-  border-radius:10px;
-  border:1px solid #1e293b;
-  box-shadow:0 0 10px rgba(0,0,0,0.3);
-">
+        <center>
+            <h2 style="color:#00d4ff; margin-bottom:10px; font-size:22px; font-weight:600;">
+                Contact With Me
+            </h2>
+        </center>
 
-<form style="padding:0px; margin:-42px 0 1px;" id="contactForm" action="https://formspree.io/f/mykndzpg" method="POST">
+        <div style="max-width:800px; background:#0f172a; padding:0px; border-radius:10px; border:1px solid #1e293b; box-shadow:0 0 10px rgba(0,0,0,0.3);">
+            <form style="padding:0px; margin:-42px 0 1px;" id="contactForm" action="https://formspree.io/f/mykndzpg" method="POST">
+                <label style="color:#cbd5e1; font-size:13px;">Your Name</label>
+                <input type="text" name="name" required style="width:100%; padding:8px; margin:2px 0 1px; background:#cbd5e1; border:1px solid #334155; color:black; border-radius:6px; font-size:13px;">
 
-  <label style="color:#cbd5e1; font-size:13px;">Your Name</label>
-  <input type="text" name="name" required
-    style="width:100%; padding:8px; margin:2px 0 1px;
-    background:#cbd5e1; border:1px solid #334155; color:black;
-    border-radius:6px; font-size:13px;">
+                <label style="color:#cbd5e1; font-size:13px;">Your Email</label>
+                <input type="email" name="email" required style="width:100%; padding:8px; margin:2px 0 12px; background:#cbd5e1; border:1px solid #334155; color:black; border-radius:6px; font-size:13px;">
 
-  <label style="color:#cbd5e1; font-size:13px;">Your Email</label>
-  <input type="email" name="email" required
-    style="width:100%; padding:8px; margin:2px 0 12px;
-    background:#cbd5e1; border:1px solid #334155; color:black;
-    border-radius:6px; font-size:13px;">
+                <label style="color:#cbd5e1; font-size:13px;">Your Message</label>
+                <textarea name="message" required rows="3" style="width:100%; padding:8px; margin:2px 0 15px; background:#cbd5e1; border:1px solid #334155; color:black; border-radius:6px; font-size:13px;"></textarea>
 
-  <label style="color:#cbd5e1; font-size:13px;">Your Message</label>
-  <textarea name="message" required rows="3"
-    style="width:100%; padding:8px; margin:2px 0 15px;
-    background:#cbd5e1; border:1px solid #334155; color:black;
-    border-radius:6px; font-size:13px;"></textarea>
+                <button type="submit" style="width:100%; padding:10px; background:#00d4ff; color:#000; font-weight:600; border:none; border-radius:6px; cursor:pointer; transition:0.3s; font-size:14px;">
+                    Send Message
+                </button>
+            </form>
 
-  <button type="submit"
-    style="width:100%; padding:10px; background:#00d4ff; color:#000;
-    font-weight:600; border:none; border-radius:6px; cursor:pointer;
-    transition:0.3s; font-size:14px;">
-    Send Message
-  </button>
-
-</form>
-
-<!-- SUCCESS MESSAGE -->
-<p id="formStatus" style="
-  color:#00ff9d;
-  margin:10px 0 15px;
-  font-size:15px;
-  font-weight:600;
-  text-align:center;
-  display:none;
-">
-  ✔ Your message has been sent successfully!!
-</p>
-
-</div>
-
-
-	
+            <p id="formStatus" style="color:#00ff9d; margin:10px 0 15px; font-size:15px; font-weight:600; text-align:center; display:none;">
+                ✔ Your message has been sent successfully!!
+            </p>
+        </div>
+    </section>
 </main>
 
- </section>
-
-	<!-- ⭐ FULL GALAXY + FIRE METEOR + CLICK BURST -->
 <canvas id="universe"></canvas>
 
 <style>
@@ -445,11 +388,10 @@ Intermediate (12th) – Physics & Mathematics</h3>
 </style>
 
 <section class="certificate-gallery">
-  <h2 class="gallery-title">Certificates & Achievements</h2>
+  <h2 class="gallery-title">Certificates &amp; Achievements</h2>
 
   <div class="gallery-slider">
     <div class="gallery-track">
-      <!-- Repeat images for smooth infinite effect -->
       <img src="images/IMG_20220411_004410.jpg" alt="Certificate 1">
       <img src="images/iti Certificate.png" alt="Certificate 2">
       <img src="images/image.png" alt="Certificate 3">
@@ -458,7 +400,7 @@ Intermediate (12th) – Physics & Mathematics</h3>
 	  <img src="images/IMG_20220411_003704.png" alt="Certificate 6">	
 	  <img src="images/IMG_20251214_085006.jpg" alt="Certificate 7">
 	  
-      <!-- Duplicate again for seamless loop -->
+      <!-- Duplicate for seamless loop -->
       <img src="images/IMG_20220411_004410.jpg" alt="Certificate 1">
       <img src="images/iti Certificate.png" alt="Certificate 2">
       <img src="images/image.png" alt="Certificate 3">
@@ -466,28 +408,20 @@ Intermediate (12th) – Physics & Mathematics</h3>
       <img src="images/IMG_20221212_134419.jpg" alt="Certificate 5">
 	  <img src="images/IMG_20220411_003704.png" alt="Certificate 6">
 	  <img src="images/IMG_20251214_085006.jpg" alt="Certificate 7">
-	  
     </div>
   </div>
 </section>
 
-
-
-
-
 <footer class="site-footer">
-
     <div class="container footer-content">
- 
-<p><a href="adminLogin.html" class="social"><i class="fa-solid fa-user-shield"></i> </a>© <span id="year"></span> · Designed & coded by <strong>Aashik Ali</strong></p>
+        <p><a href="adminLogin.html" class="social"><i class="fa-solid fa-user-shield"></i> </a>© <span id="year"></span> · Designed &amp; coded by <strong>Aashik Ali</strong></p>
 
-        <!-- Realistic Social Icons -->
-        <div class="social-icons"><a href="https://wa.me/966541421337" target="_blank" class="social"><i class="fab fa-whatsapp"></i></a>
-
+        <div class="social-icons">
+            <a href="https://wa.me/966541421337" target="_blank" class="social"><i class="fab fa-whatsapp"></i></a>
             <a href="#" class="social"><i class="fab fa-facebook"></i></a>
-			<a href="#" class="social"><i class="fab fa-youtube"></i></a>
+            <a href="#" class="social"><i class="fab fa-youtube"></i></a>
             <a href="#" class="social"><i class="fab fa-instagram"></i></a>
-			<a href="https://github.com/AashikAli240" class="social"><i class="fab fa-github"></i></a>
+            <a href="https://github.com/AashikAli240" class="social"><i class="fab fa-github"></i></a>
             <a href="https://www.linkedin.com/in/aashik-ali-744419207" class="social"><i class="fab fa-linkedin"></i></a>
             <a href="#" class="social"><i class="fab fa-twitter"></i></a>
         </div>
@@ -496,20 +430,13 @@ Intermediate (12th) – Physics & Mathematics</h3>
     </div>
 </footer>
 
-</body>
-</html>
-
-
 <script>
-
-// Set current year in footer
 document.addEventListener("DOMContentLoaded", () => {
     const yearSpan = document.getElementById("year");
     if (yearSpan) {
         yearSpan.textContent = new Date().getFullYear();
     }
 
-    // Theme toggle with localStorage
     const themeToggle = document.getElementById("themeToggle");
     const root = document.documentElement;
 
@@ -536,54 +463,37 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 });
-</script>
 
-<script>
-    const hamburger = document.getElementById("hamburger");
-    const menu = document.getElementById("menu");
+const hamburger = document.getElementById("hamburger");
+const menu = document.getElementById("menu");
 
+if(hamburger && menu){
     hamburger.addEventListener("click", () => {
         hamburger.classList.toggle("active");
         menu.classList.toggle("active");
     });
-</script>
+}
 
+const form = document.getElementById("contactForm");
+const statusMsg = document.getElementById("formStatus");
 
-<script>
-  const btn = document.querySelector("button");
-  btn.addEventListener("mouseover", () => {
-    btn.style.background = "#38bdf8";
-  });
-  btn.addEventListener("mouseout", () => {
-    btn.style.background = "#00d4ff";
-  });
+if(form){
+    form.addEventListener("submit", async function(event) {
+        event.preventDefault();
+        const formData = new FormData(form);
+        const response = await fetch(form.action, {
+            method: "POST",
+            body: formData,
+            headers: { "Accept": "application/json" }
+        });
 
-  // AJAX SUBMIT (NO REDIRECT)
-  const form = document.getElementById("contactForm");
-  const statusMsg = document.getElementById("formStatus");
-
-  form.addEventListener("submit", async function(event) {
-    event.preventDefault();
-
-    const formData = new FormData(form);
-
-    const response = await fetch(form.action, {
-      method: "POST",
-      body: formData,
-      headers: { "Accept": "application/json" }
+        if (response.ok) {
+            statusMsg.style.display = "block";
+            form.reset();
+        }
     });
+}
 
-    if (response.ok) {
-      statusMsg.style.display = "block";
-      form.reset();
-    }
-  });
-</script>
-	
-		
-   
-
-<script>
 const canvas = document.getElementById("universe");
 const ctx = canvas.getContext("2d");
 
@@ -593,7 +503,6 @@ canvas.height = window.innerHeight;
 let particles = [];
 let meteors = [];
 
-// ⭐ Galaxy particles
 for (let i = 0; i < 260; i++) {
   particles.push({
     x: Math.random() * canvas.width,
@@ -605,10 +514,8 @@ for (let i = 0; i < 260; i++) {
   });
 }
 
-// ⭐ Create slow fireball meteor
 function createMeteor() {
   const startX = Math.random() * canvas.width;
-
   meteors.push({
     x: startX,
     y: -40,
@@ -620,7 +527,6 @@ function createMeteor() {
   });
 }
 
-// ⭐ Meteor kabhi-kabhi aaye
 setInterval(() => {
   if (Math.random() > 0.65) {
     createMeteor();
@@ -630,7 +536,6 @@ setInterval(() => {
 function animateUniverse() {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-  // ⭐ Galaxy particles
   particles.forEach(p => {
     ctx.shadowBlur = p.glow;
     ctx.shadowColor = "#00eaff";
@@ -648,10 +553,7 @@ function animateUniverse() {
     if (p.y > canvas.height) p.y = 0;
   });
 
-  // ⭐ Fireball meteors
   meteors.forEach((m, index) => {
-
-    // 🔥 Fireball head (round)
     ctx.shadowBlur = 25;
     ctx.shadowColor = "orange";
     ctx.fillStyle = "white";
@@ -659,7 +561,6 @@ function animateUniverse() {
     ctx.arc(m.x, m.y, m.size, 0, Math.PI * 2);
     ctx.fill();
 
-    // 🔥 Fire tail
     const tailX = m.x;
     const tailY = m.y - m.tail;
 
@@ -675,15 +576,12 @@ function animateUniverse() {
     ctx.lineTo(tailX, tailY);
     ctx.stroke();
 
-    // ⭐ Movement (slow + straight down)
     m.y += m.speed;
 
-    // ⭐ Fade only near bottom
     if (m.y > canvas.height * 0.7) {
       m.opacity -= 0.005;
     }
 
-    // ⭐ Remove only after bottom
     if (m.y > canvas.height + 50) {
       meteors.splice(index, 1);
     }
@@ -698,10 +596,7 @@ window.addEventListener("resize", () => {
   canvas.width = window.innerWidth;
   canvas.height = window.innerHeight;
 });
-</script>
 
-<!-- ✧ CLICK ENERGY BURST -->
-<script>
 document.addEventListener("click", function(e) {
   for (let i = 0; i < 25; i++) {
     let spark = document.createElement("div");
@@ -729,7 +624,6 @@ document.addEventListener("click", function(e) {
 });
 </script>
 
-
 <script type="module">
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
 import { getDatabase, ref, onValue } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-database.js";
@@ -747,9 +641,7 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const db = getDatabase(app);
 
-/* ---------------- COMPUTER SKILLS ---------------- */
 const skillsRef = ref(db, "skills");
-
 onValue(skillsRef, (snapshot) => {
     let container = document.getElementById("skillsContainer");
     if (!container) return;
@@ -757,7 +649,6 @@ onValue(skillsRef, (snapshot) => {
 
     snapshot.forEach((child) => {
         const data = child.val();
-
         if (typeof data === "string") {
             container.innerHTML += `<span class="tag">${data}</span>`;
         }
@@ -768,10 +659,7 @@ onValue(skillsRef, (snapshot) => {
     });
 });
 
-
-/* ---------------- TECHNICAL SKILLS ---------------- */
 const techRef = ref(db, "techSkills");
-
 onValue(techRef, (snapshot) => {
     let container = document.getElementById("TechskillsContainer");
     if (!container) return;
@@ -779,7 +667,6 @@ onValue(techRef, (snapshot) => {
 
     snapshot.forEach((child) => {
         const data = child.val();
-
         if (typeof data === "string") {
             container.innerHTML += `<span class="tag">${data}</span>`;
         }
@@ -790,35 +677,10 @@ onValue(techRef, (snapshot) => {
     });
 });
 
-
-/* ---------------- GALLERY ---------------- */
-const galleryRef = ref(db, "gallery");
-
-onValue(galleryRef, (snapshot) => {
-    let container = document.getElementById("galleryContainer");
-    if (!container) return;
-    container.innerHTML = "";
-
-    snapshot.forEach((child) => {
-        const data = child.val();
-
-        if (!data || data.visible === false) return;
-
-        container.innerHTML += `
-            <div class="gallery-item">
-                <img src="${data.imageURL}" alt="${data.title}">
-                <h3>${data.title}</h3>
-                <p>${data.category}</p>
-            </div>
-        `;
-    });
-});
+window.onload = () => {
+    document.body.classList.add("loaded");
+};
 </script>
 
-<script>
-    window.onload = () => {
-        document.body.classList.add("loaded");
-    };
-</script>
-
-
+</body>
+</html>
