@@ -11,16 +11,18 @@
     </script>
 
     <meta charset="UTF-8">
-    <title>Aashik Ali | CV </title>
+    <title>Aashik Ali | CV</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="CV / Resume of Aashik Ali – Assistant Manager, Logistics, IT & Technical Professional.">
     <link rel="stylesheet" href="style.css">
+    
+    <!-- Preconnect & Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
+    <!-- FontAwesome (Consolidated single source) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
@@ -28,7 +30,7 @@
     <div class="container header-content">
 
         <!-- Hamburger (Mobile Only) -->
-        <div class="hamburger" id="hamburger">
+        <div class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
             <span></span>
             <span></span>
             <span></span>
@@ -37,16 +39,16 @@
         <!-- Name Center -->
         <div class="title-center">
             <h1 class="name">Aashik Ali</h1>
-            <p class="headline">"Multi-skilled" and "Actively Upskilling"</p>
+            <p class="headline">Multi-Skilled Logistics &amp; Technical Operations Professional</p>
         </div>
 
         <!-- Desktop Menu -->
         <nav class="menu" id="menu">
-            <a href="index.html" onclick="showHome()">Home</a>
-            <a href="Doc.html" target="_blank">My Experience Work</a>
-            <a href="#year">Certificates</a>
+            <a href="index.html">Home</a>
+            <a href="Doc.html" target="_blank" rel="noopener">Experience Work</a>
+            <a href="#certificates">Certificates</a>
             <a href="#about">About</a>
-            <a href="#year">Contact</a>
+            <a href="#contact">Contact</a>
         </nav>
 
         <!-- Theme Toggle -->
@@ -57,53 +59,64 @@
     </div>
 </header>
 
-<main class="container main-layout">
+<main class="container main-layout" id="about">
     <!-- Left column -->
-    <section class="left-column">
+    <aside class="left-column">
         <section class="card contact-card">
-            <h2>Contact</h2>
-            <a href="IMG_20211114_133154_1.png" target="_blank">
-                <img src="images/IMG_20211114_133154_1.png" alt="Aashik Ali" class="profile-pic">
+            <h2>Contact Information</h2>
+            <a href="images/IMG_20211114_133154_1.png" target="_blank" rel="noopener">
+                <img src="images/IMG_20211114_133154_1.png" alt="Aashik Ali Profile Photo" class="profile-pic">
             </a>
             <ul class="contact-list">
                 <li><span class="label">Phone:</span> <a href="tel:+918948297146">+91 8948297146</a>, <a href="tel:+966541421337">+966 541421337</a></li>
                 <li><span class="label">Email:</span> <a href="mailto:aashikali240@gmail.com">aashikali240@gmail.com</a></li>
-                <li><span class="label">Location:</span> Asir, Saudi Arabia</li>
+                <li><span class="label">Location:</span> Uttar Pradesh, India</li>
             </ul>
         </section>
 
         <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
-        <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="light" data-type="HORIZONTAL" data-vanity="aashik-ali-300387218" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://in.linkedin.com/in/aashik-ali-300387218?trk=profile-badge"></a></div>
+        <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="light" data-type="HORIZONTAL" data-vanity="aashik-ali-300387218" data-version="v1">
+            <a class="badge-base__link LI-simple-link" href="https://in.linkedin.com/in/aashik-ali-300387218?trk=profile-badge"></a>
+        </div>
                
         <section class="card">
-            <h2>Professional summary</h2>
+            <h2>Professional Summary</h2>
             <p style="line-height:1.7; text-align:justify; margin:0;">
-                "Detail-oriented logistics, warehouse, and technical operations professional with 2+ years of experience in material handling, inventory control, stock reconciliation, dispatch coordination, and documentation. Strong background in <b>IT Support, Electrical Maintenance &amp; Troubleshooting</b>, system troubleshooting, and retail operations in Saudi Arabia. Skilled in BCIL system, MS Excel, MS Word, vehicle tracking, and warehouse reporting. Known for accuracy, technical adaptability, and smooth coordination between operations, transporters, and management teams."
+                Detail-oriented logistics, warehouse, and technical operations professional with 2+ years of experience in material handling, inventory control, stock reconciliation, dispatch coordination, and documentation. Strong background in <strong>IT Support, Electrical Maintenance &amp; Troubleshooting</strong>, system troubleshooting, and retail operations in Saudi Arabia. Skilled in BCIL system, MS Excel, MS Word, vehicle tracking, and warehouse reporting. Known for accuracy, technical adaptability, and smooth coordination between operations, transporters, and management teams.
             </p>
         </section>
 
         <section class="card">
-            <h2>Computer skills</h2>
+            <h2>Core Skills</h2>
             <div class="tags" id="skillsContainer"></div>
+            <ul class="bullet-list" style="margin-top: 10px;">
+                <li>Logistics Coordination &amp; Warehouse Operations</li>
+                <li>Inventory Management &amp; Stock Control</li>
+                <li>Vehicle Tracking &amp; Transport Coordination</li>
+                <li>ERP / BCIL System Handling</li>
+                <li>MS Office (Excel, Word)</li>
+                <li>Customer Handling / Operations Support</li>
+                <li>Documentation: Invoices, Stock Reports</li>
+                <li>Stock Counting &amp; Bin Management</li>
+            </ul>
         </section>
 
         <section class="card">
-            <h2>Technical skills</h2>
-            <p style="font-weight:600; color:#00d4ff; margin-bottom:8px;">IT Support &amp; Electrical Maintenance</p>
-            <ul class="bullet-list" style="margin-bottom:15px;">
+            <h2>Technical Skills</h2>
+            <div class="tags" id="TechskillsContainer"></div>
+            <ul class="bullet-list" style="margin-top: 10px;">
+                <li>IT Support &amp; Electrical Maintenance</li>
                 <li>Domestic &amp; Industrial Electrical Repairs</li>
-                <li>Washing Machine, Fan, Mixer &amp; Appliance Repair</li>
+                <li>Home &amp; Industrial Appliance Troubleshooting</li>
                 <li>Instrumentation Circuit Troubleshooting</li>
                 <li>Analog &amp; Digital Electronics</li>
                 <li>Cable Termination &amp; Panel Wiring</li>
                 <li>Preventive &amp; Corrective Maintenance</li>
                 <li>Control Panel Installation</li>
                 <li>Multimeter &amp; Testing Tools Usage</li>
-                <li>Calibration Basics</li>
-                <li>Electrical Safety Procedures</li>
+                <li>Calibration Basics &amp; Electrical Safety Procedures</li>
                 <li>System Installation &amp; Configuration</li>
             </ul>
-            <div class="tags" id="TechskillsContainer"></div>
         </section>
 
         <section class="card">
@@ -120,14 +133,14 @@
         <section class="card">
             <h2>Languages</h2>
             <ul class="bullet-list">
-                <li>Hindi – Native / Fluent</li>
-                <li>English – Proficient</li>
-                <li>Arabic – Proficient</li>
+                <li><strong>Hindi:</strong> Native / Fluent</li>
+                <li><strong>English:</strong> Proficient</li>
+                <li><strong>Arabic:</strong> Proficient</li>
             </ul>
         </section>
 
         <section class="card">
-            <h2>Personal details</h2>
+            <h2>Personal Details</h2>
             <ul class="contact-list">
                 <li><span class="label">Father's Name:</span> Mr. Shaphimuhammad</li>
                 <li><span class="label">Date of Birth:</span> 25 August 1999</li>
@@ -135,30 +148,28 @@
                 <li><span class="label">Hobbies:</span> Technical work, Programming &amp; Teaching</li>
             </ul>
         </section>
-    </section>
+    </aside>
 
     <!-- Right column -->
     <section class="right-column">
         <section class="card">
-            <h2>Current position</h2>
-            <div class="job-header">
-                <div>
-                    <h3>Assistant Manager – Shopping Mall</h3>
-                    <p class="job-company">Asir, Abha, Saudi Arabia</p>
-                </div>
-                <p class="job-dates">2023 – April 2026</p>
-            </div>
-            <ul class="bullet-list">
-                <li>Managed daily operations, cash transactions, billing, and inventory tracking using computer systems.</li>
-                <li>Maintained accurate stock records and ensured timely stock replenishment.</li>
-                <li>Improved daily workflow by maintaining organized stock, customer service, and documentation.</li>
-            </ul>
-        </section>
-
-        <section class="card">
-            <h2>Professional experience</h2>
-
+            <h2>Professional Experience</h2>
             <article class="experience-item">
+                <div class="job-header">
+                    <div>
+                        <h3>Assistant Manager – Shopping Mall</h3>
+                        <p class="job-company">Asir, Abha, Saudi Arabia</p>
+                    </div>
+                    <p class="job-dates">2023 – April 2026</p>
+                </div>
+                <ul class="bullet-list">
+                    <li>Managed daily operations, cash transactions, billing, and inventory tracking using computer systems.</li>
+                    <li>Maintained accurate stock records and ensured timely stock replenishment.</li>
+                    <li>Improved daily workflow by maintaining organized stock, customer service, and documentation.</li>
+                </ul>
+            </article>
+
+            <article class="experience-item" style="margin-top:20px;">
                 <div class="job-header">
                     <div>
                         <h3>Logistics Department – FENESTA Pvt. Ltd.</h3>
@@ -174,7 +185,7 @@
                 </ul>
             </article>
 
-            <article class="experience-item">
+            <article class="experience-item" style="margin-top:20px;">
                 <div class="job-header">
                     <div>
                         <h3>IT Department – AAKAR Pvt. Ltd.</h3>
@@ -192,13 +203,13 @@
         </section>
 
         <section class="card">
-            <h2>Technical qualifications</h2>
+            <h2>Technical Qualifications</h2>
 
             <article class="edu-item">
                 <div class="edu-header">
                     <div>
                         <h3>
-                            <a href="images/image.png" target="_blank">
+                            <a href="images/image.png" target="_blank" rel="noopener">
                                 <i class="fa-solid fa-file-circle-check cert-icon"></i>
                             </a> Backhoe Loader Operator (CAT)
                         </h3>
@@ -212,7 +223,7 @@
                 <div class="edu-header">
                     <div>
                         <h3>
-                            <a href="images/iti Certificate.png" target="_blank">
+                            <a href="images/iti Certificate.png" target="_blank" rel="noopener">
                                 <i class="fa-solid fa-file-circle-check cert-icon"></i>
                             </a> ITI – Computer Operator &amp; Programming Assistant
                         </h3>
@@ -226,7 +237,7 @@
                 <div class="edu-header">
                     <div>
                         <h3>
-                            <a href="images/IMG_20220411_003704.jpg" target="_blank">
+                            <a href="images/IMG_20220411_003704.jpg" target="_blank" rel="noopener">
                                 <i class="fa-solid fa-file-circle-check cert-icon"></i>
                             </a> Diploma in Instrumentation
                         </h3>
@@ -240,7 +251,7 @@
                 <div class="edu-header">
                     <div>
                         <h3>
-                            <a href="images/IMG_20220411_004410.jpg" target="_blank">
+                            <a href="images/IMG_20220411_004410.jpg" target="_blank" rel="noopener">
                                 <i class="fa-solid fa-file-circle-check cert-icon"></i>
                             </a> CCC – Course on Computer Concepts
                         </h3>
@@ -254,7 +265,7 @@
                 <div class="edu-header">
                     <div>
                         <h3>
-                            <a href="images/IMG_20191004_0001 (4).jpg" target="_blank">
+                            <a href="images/IMG_20191004_0001 (4).jpg" target="_blank" rel="noopener">
                                 <i class="fa-solid fa-file-circle-check cert-icon"></i>
                             </a> DCA – Diploma in Computer Application
                         </h3>
@@ -272,7 +283,7 @@
                 <div class="edu-header">
                     <div>
                         <h3>
-                            <a href="images/IMG_20221212_134419.jpg" target="_blank">
+                            <a href="images/IMG_20221212_134419.jpg" target="_blank" rel="noopener">
                                 <i class="fa-solid fa-file-circle-check cert-icon"></i>
                             </a> B.A. in Political Science &amp; Social Science
                         </h3>
@@ -286,7 +297,7 @@
                 <div class="edu-header">
                     <div>
                         <h3>
-                            <a href="images/IMG_20220411_003344.jpg" target="_blank" class="cert-link">
+                            <a href="images/IMG_20220411_003344.jpg" target="_blank" rel="noopener" class="cert-link">
                                 <i class="fa-solid fa-file-circle-check cert-icon"></i>
                             </a> Intermediate (12th) – Physics &amp; Mathematics
                         </h3>
@@ -300,7 +311,7 @@
                 <div class="edu-header">
                     <div>
                         <h3>
-                            <a href="images/IMG_20220411_003332.jpg" target="_blank" class="cert-link">
+                            <a href="images/IMG_20220411_003332.jpg" target="_blank" rel="noopener" class="cert-link">
                                 <i class="fa-solid fa-file-circle-check cert-icon"></i>
                             </a> High School (10th)
                         </h3>
@@ -315,19 +326,19 @@
             <h2>Documents</h2>
             <div class="two-column">
                 <div>
-                    <h3>Passport details</h3>
+                    <h3>Passport Details</h3>
                     <ul class="bullet-list compact">
-                        <li>Passport No.: V0099684</li>
-                        <li>Date of Issue: 06/12/2019</li>
-                        <li>Date of Expiry: 05/12/2029</li>
+                        <li><strong>Passport No.:</strong> V0099684</li>
+                        <li><strong>Date of Issue:</strong> 06/12/2019</li>
+                        <li><strong>Date of Expiry:</strong> 05/12/2029</li>
                     </ul>
                 </div>
                 <div>
-                    <h3>Driving license details</h3>
+                    <h3>Driving License Details</h3>
                     <ul class="bullet-list compact">
-                        <li>DL No.: UP5220210014988</li>
-                        <li>Date of Issue: 25/09/2021</li>
-                        <li>Date of Expiry: 24/08/2029</li>
+                        <li><strong>DL No.:</strong> UP5220210014988</li>
+                        <li><strong>Date of Issue:</strong> 25/09/2021</li>
+                        <li><strong>Date of Expiry:</strong> 24/08/2029</li>
                     </ul>
                 </div>
             </div>
@@ -344,32 +355,35 @@
             </div>
         </section>
 
-        <center>
-            <h2 style="color:#00d4ff; margin-bottom:10px; font-size:22px; font-weight:600;">
-                Contact With Me
-            </h2>
-        </center>
+        <!-- Form Section Refactored for Clean Design -->
+        <section class="card" id="contact" style="background:#0f172a; border:1px solid #1e293b;">
+            <h2 style="color:#00d4ff; margin-bottom:15px; text-align:center;">Get In Touch</h2>
+            
+            <form id="contactForm" action="https://formspree.io/f/mykndzpg" method="POST" style="display:flex; flex-direction:column; gap:12px;">
+                <div>
+                    <label style="color:#cbd5e1; font-size:13px; display:block; margin-bottom:4px;">Your Name</label>
+                    <input type="text" name="name" required style="width:100%; padding:10px; background:#1e293b; border:1px solid #334155; color:#fff; border-radius:6px; font-size:14px; box-sizing:border-box;">
+                </div>
 
-        <div style="max-width:800px; background:#0f172a; padding:0px; border-radius:10px; border:1px solid #1e293b; box-shadow:0 0 10px rgba(0,0,0,0.3);">
-            <form style="padding:0px; margin:-42px 0 1px;" id="contactForm" action="https://formspree.io/f/mykndzpg" method="POST">
-                <label style="color:#cbd5e1; font-size:13px;">Your Name</label>
-                <input type="text" name="name" required style="width:100%; padding:8px; margin:2px 0 1px; background:#cbd5e1; border:1px solid #334155; color:black; border-radius:6px; font-size:13px;">
+                <div>
+                    <label style="color:#cbd5e1; font-size:13px; display:block; margin-bottom:4px;">Your Email</label>
+                    <input type="email" name="email" required style="width:100%; padding:10px; background:#1e293b; border:1px solid #334155; color:#fff; border-radius:6px; font-size:14px; box-sizing:border-box;">
+                </div>
 
-                <label style="color:#cbd5e1; font-size:13px;">Your Email</label>
-                <input type="email" name="email" required style="width:100%; padding:8px; margin:2px 0 12px; background:#cbd5e1; border:1px solid #334155; color:black; border-radius:6px; font-size:13px;">
+                <div>
+                    <label style="color:#cbd5e1; font-size:13px; display:block; margin-bottom:4px;">Your Message</label>
+                    <textarea name="message" required rows="4" style="width:100%; padding:10px; background:#1e293b; border:1px solid #334155; color:#fff; border-radius:6px; font-size:14px; box-sizing:border-box;"></textarea>
+                </div>
 
-                <label style="color:#cbd5e1; font-size:13px;">Your Message</label>
-                <textarea name="message" required rows="3" style="width:100%; padding:8px; margin:2px 0 15px; background:#cbd5e1; border:1px solid #334155; color:black; border-radius:6px; font-size:13px;"></textarea>
-
-                <button type="submit" style="width:100%; padding:10px; background:#00d4ff; color:#000; font-weight:600; border:none; border-radius:6px; cursor:pointer; transition:0.3s; font-size:14px;">
+                <button type="submit" style="width:100%; padding:12px; background:#00d4ff; color:#000; font-weight:600; border:none; border-radius:6px; cursor:pointer; transition:0.3s; font-size:15px; margin-top:5px;">
                     Send Message
                 </button>
             </form>
 
-            <p id="formStatus" style="color:#00ff9d; margin:10px 0 15px; font-size:15px; font-weight:600; text-align:center; display:none;">
-                ✔ Your message has been sent successfully!!
+            <p id="formStatus" style="color:#00ff9d; margin-top:15px; font-size:14px; font-weight:600; text-align:center; display:none;">
+                ✔ Your message has been sent successfully!
             </p>
-        </div>
+        </section>
     </section>
 </main>
 
@@ -387,7 +401,7 @@
 }
 </style>
 
-<section class="certificate-gallery">
+<section class="certificate-gallery" id="certificates">
   <h2 class="gallery-title">Certificates &amp; Achievements</h2>
 
   <div class="gallery-slider">
@@ -397,8 +411,8 @@
       <img src="images/image.png" alt="Certificate 3">
       <img src="images/IMG_20191004_0001 (4).jpg" alt="Certificate 4">
       <img src="images/IMG_20221212_134419.jpg" alt="Certificate 5">
-	  <img src="images/IMG_20220411_003704.png" alt="Certificate 6">	
-	  <img src="images/IMG_20251214_085006.jpg" alt="Certificate 7">
+      <img src="images/IMG_20220411_003704.png" alt="Certificate 6">	
+      <img src="images/IMG_20251214_085006.jpg" alt="Certificate 7">
 	  
       <!-- Duplicate for seamless loop -->
       <img src="images/IMG_20220411_004410.jpg" alt="Certificate 1">
@@ -406,24 +420,24 @@
       <img src="images/image.png" alt="Certificate 3">
       <img src="images/IMG_20191004_0001 (4).jpg" alt="Certificate 4">
       <img src="images/IMG_20221212_134419.jpg" alt="Certificate 5">
-	  <img src="images/IMG_20220411_003704.png" alt="Certificate 6">
-	  <img src="images/IMG_20251214_085006.jpg" alt="Certificate 7">
+      <img src="images/IMG_20220411_003704.png" alt="Certificate 6">
+      <img src="images/IMG_20251214_085006.jpg" alt="Certificate 7">
     </div>
   </div>
 </section>
 
 <footer class="site-footer">
     <div class="container footer-content">
-        <p><a href="adminLogin.html" class="social"><i class="fa-solid fa-user-shield"></i> </a>© <span id="year"></span> · Designed &amp; coded by <strong>Aashik Ali</strong></p>
+        <p><a href="adminLogin.html" class="social" aria-label="Admin Login"><i class="fa-solid fa-user-shield"></i></a> © <span id="year"></span> · Designed &amp; coded by <strong>Aashik Ali</strong></p>
 
         <div class="social-icons">
-            <a href="https://wa.me/966541421337" target="_blank" class="social"><i class="fab fa-whatsapp"></i></a>
-            <a href="#" class="social"><i class="fab fa-facebook"></i></a>
-            <a href="#" class="social"><i class="fab fa-youtube"></i></a>
-            <a href="#" class="social"><i class="fab fa-instagram"></i></a>
-            <a href="https://github.com/AashikAli240" class="social"><i class="fab fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/aashik-ali-744419207" class="social"><i class="fab fa-linkedin"></i></a>
-            <a href="#" class="social"><i class="fab fa-twitter"></i></a>
+            <a href="https://wa.me/966541421337" target="_blank" rel="noopener" class="social" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            <a href="#" class="social" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            <a href="#" class="social" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com/AashikAli240" target="_blank" rel="noopener" class="social" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/aashik-ali-744419207" target="_blank" rel="noopener" class="social" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="social" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
         </div>
 
         <a href="#top" class="back-to-top">Back to top ↑</a>
@@ -462,165 +476,172 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         });
     }
-});
 
-const hamburger = document.getElementById("hamburger");
-const menu = document.getElementById("menu");
+    const hamburger = document.getElementById("hamburger");
+    const menu = document.getElementById("menu");
 
-if(hamburger && menu){
-    hamburger.addEventListener("click", () => {
-        hamburger.classList.toggle("active");
-        menu.classList.toggle("active");
-    });
-}
-
-const form = document.getElementById("contactForm");
-const statusMsg = document.getElementById("formStatus");
-
-if(form){
-    form.addEventListener("submit", async function(event) {
-        event.preventDefault();
-        const formData = new FormData(form);
-        const response = await fetch(form.action, {
-            method: "POST",
-            body: formData,
-            headers: { "Accept": "application/json" }
+    if (hamburger && menu) {
+        hamburger.addEventListener("click", () => {
+            hamburger.classList.toggle("active");
+            menu.classList.toggle("active");
         });
+    }
 
-        if (response.ok) {
-            statusMsg.style.display = "block";
-            form.reset();
+    const form = document.getElementById("contactForm");
+    const statusMsg = document.getElementById("formStatus");
+
+    if (form) {
+        form.addEventListener("submit", async function(event) {
+            event.preventDefault();
+            const formData = new FormData(form);
+            try {
+                const response = await fetch(form.action, {
+                    method: "POST",
+                    body: formData,
+                    headers: { "Accept": "application/json" }
+                });
+
+                if (response.ok) {
+                    statusMsg.style.display = "block";
+                    form.reset();
+                }
+            } catch (error) {
+                console.error("Form submission error:", error);
+            }
+        });
+    }
+
+    const canvas = document.getElementById("universe");
+    if (canvas) {
+        const ctx = canvas.getContext("2d");
+
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+
+        let particles = [];
+        let meteors = [];
+
+        for (let i = 0; i < 260; i++) {
+            particles.push({
+                x: Math.random() * canvas.width,
+                y: Math.random() * canvas.height,
+                size: Math.random() * 1.5 + 0.5,
+                speedX: (Math.random() - 0.5) * 0.15,
+                speedY: (Math.random() - 0.5) * 0.15,
+                glow: Math.random() * 15 + 5
+            });
+        }
+
+        function createMeteor() {
+            const startX = Math.random() * canvas.width;
+            meteors.push({
+                x: startX,
+                y: -40,
+                size: Math.random() * 4 + 3, 
+                speed: Math.random() * 1.2 + 0.8, 
+                angle: Math.PI / 2, 
+                opacity: 1,
+                tail: Math.random() * 90 + 80
+            });
+        }
+
+        setInterval(() => {
+            if (Math.random() > 0.65) {
+                createMeteor();
+            }
+        }, 2000);
+
+        function animateUniverse() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            particles.forEach(p => {
+                ctx.shadowBlur = p.glow;
+                ctx.shadowColor = "#00eaff";
+                ctx.fillStyle = "#00eaff";
+                ctx.beginPath();
+                ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
+                ctx.fill();
+
+                p.x += p.speedX;
+                p.y += p.speedY;
+
+                if (p.x < 0) p.x = canvas.width;
+                if (p.x > canvas.width) p.x = 0;
+                if (p.y < 0) p.y = canvas.height;
+                if (p.y > canvas.height) p.y = 0;
+            });
+
+            meteors.forEach((m, index) => {
+                ctx.shadowBlur = 25;
+                ctx.shadowColor = "orange";
+                ctx.fillStyle = "white";
+                ctx.beginPath();
+                ctx.arc(m.x, m.y, m.size, 0, Math.PI * 2);
+                ctx.fill();
+
+                const tailX = m.x;
+                const tailY = m.y - m.tail;
+
+                const grad = ctx.createLinearGradient(m.x, m.y, tailX, tailY);
+                grad.addColorStop(0, `rgba(255,255,255,${m.opacity})`);
+                grad.addColorStop(0.3, `rgba(255,180,60,${m.opacity})`);
+                grad.addColorStop(1, `rgba(255,80,0,0)`);
+
+                ctx.strokeStyle = grad;
+                ctx.lineWidth = 4;
+                ctx.beginPath();
+                ctx.moveTo(m.x, m.y);
+                ctx.lineTo(tailX, tailY);
+                ctx.stroke();
+
+                m.y += m.speed;
+
+                if (m.y > canvas.height * 0.7) {
+                    m.opacity -= 0.005;
+                }
+
+                if (m.y > canvas.height + 50) {
+                    meteors.splice(index, 1);
+                }
+            });
+
+            requestAnimationFrame(animateUniverse);
+        }
+
+        animateUniverse();
+
+        window.addEventListener("resize", () => {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        });
+    }
+
+    document.addEventListener("click", function(e) {
+        for (let i = 0; i < 15; i++) {
+            let spark = document.createElement("div");
+            spark.innerHTML = "✧";
+            spark.style.position = "absolute";
+            spark.style.left = e.pageX + "px";
+            spark.style.top = e.pageY + "px";
+            spark.style.color = "#00eaff";
+            spark.style.fontSize = (Math.random() * 20 + 12) + "px";
+            spark.style.opacity = 1;
+            spark.style.pointerEvents = "none";
+            spark.style.filter = "drop-shadow(0 0 6px #00eaff)";
+            spark.style.transition = "all 1s ease-out";
+
+            document.body.appendChild(spark);
+
+            setTimeout(() => {
+                spark.style.transform = `translate(${Math.random()*150-75}px, ${Math.random()*150-75}px) scale(0.3)`;
+                spark.style.opacity = 0;
+            }, 20);
+
+            setTimeout(() => {
+                spark.remove();
+            }, 1100);
         }
     });
-}
-
-const canvas = document.getElementById("universe");
-const ctx = canvas.getContext("2d");
-
-canvas.width = window.innerWidth;
-canvas.height = window.innerHeight;
-
-let particles = [];
-let meteors = [];
-
-for (let i = 0; i < 260; i++) {
-  particles.push({
-    x: Math.random() * canvas.width,
-    y: Math.random() * canvas.height,
-    size: Math.random() * 1.5 + 0.5,
-    speedX: (Math.random() - 0.5) * 0.15,
-    speedY: (Math.random() - 0.5) * 0.15,
-    glow: Math.random() * 15 + 5
-  });
-}
-
-function createMeteor() {
-  const startX = Math.random() * canvas.width;
-  meteors.push({
-    x: startX,
-    y: -40,
-    size: Math.random() * 4 + 3, 
-    speed: Math.random() * 1.2 + 0.8, 
-    angle: Math.PI / 2, 
-    opacity: 1,
-    tail: Math.random() * 90 + 80
-  });
-}
-
-setInterval(() => {
-  if (Math.random() > 0.65) {
-    createMeteor();
-  }
-}, 2000);
-
-function animateUniverse() {
-  ctx.clearRect(0, 0, canvas.width, canvas.height);
-
-  particles.forEach(p => {
-    ctx.shadowBlur = p.glow;
-    ctx.shadowColor = "#00eaff";
-    ctx.fillStyle = "#00eaff";
-    ctx.beginPath();
-    ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
-    ctx.fill();
-
-    p.x += p.speedX;
-    p.y += p.speedY;
-
-    if (p.x < 0) p.x = canvas.width;
-    if (p.x > canvas.width) p.x = 0;
-    if (p.y < 0) p.y = canvas.height;
-    if (p.y > canvas.height) p.y = 0;
-  });
-
-  meteors.forEach((m, index) => {
-    ctx.shadowBlur = 25;
-    ctx.shadowColor = "orange";
-    ctx.fillStyle = "white";
-    ctx.beginPath();
-    ctx.arc(m.x, m.y, m.size, 0, Math.PI * 2);
-    ctx.fill();
-
-    const tailX = m.x;
-    const tailY = m.y - m.tail;
-
-    const grad = ctx.createLinearGradient(m.x, m.y, tailX, tailY);
-    grad.addColorStop(0, `rgba(255,255,255,${m.opacity})`);
-    grad.addColorStop(0.3, `rgba(255,180,60,${m.opacity})`);
-    grad.addColorStop(1, `rgba(255,80,0,0)`);
-
-    ctx.strokeStyle = grad;
-    ctx.lineWidth = 4;
-    ctx.beginPath();
-    ctx.moveTo(m.x, m.y);
-    ctx.lineTo(tailX, tailY);
-    ctx.stroke();
-
-    m.y += m.speed;
-
-    if (m.y > canvas.height * 0.7) {
-      m.opacity -= 0.005;
-    }
-
-    if (m.y > canvas.height + 50) {
-      meteors.splice(index, 1);
-    }
-  });
-
-  requestAnimationFrame(animateUniverse);
-}
-
-animateUniverse();
-
-window.addEventListener("resize", () => {
-  canvas.width = window.innerWidth;
-  canvas.height = window.innerHeight;
-});
-
-document.addEventListener("click", function(e) {
-  for (let i = 0; i < 25; i++) {
-    let spark = document.createElement("div");
-    spark.innerHTML = "✧";
-    spark.style.position = "absolute";
-    spark.style.left = e.pageX + "px";
-    spark.style.top = e.pageY + "px";
-    spark.style.color = "#00eaff";
-    spark.style.fontSize = (Math.random() * 20 + 12) + "px";
-    spark.style.opacity = 1;
-    spark.style.filter = "drop-shadow(0 0 6px #00eaff)";
-    spark.style.transition = "all 1s ease-out";
-
-    document.body.appendChild(spark);
-
-    setTimeout(() => {
-      spark.style.transform = `translate(${Math.random()*150-75}px, ${Math.random()*150-75}px) scale(0.3)`;
-      spark.style.opacity = 0;
-    }, 20);
-
-    setTimeout(() => {
-      spark.remove();
-    }, 1100);
-  }
 });
 </script>
 
